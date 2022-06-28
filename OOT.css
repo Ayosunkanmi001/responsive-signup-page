@@ -1,0 +1,141 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ body {
+  background-color :aliceblue;
+  }
+  .box {
+  width : 1330px;
+  height : 800px;
+  background: linear-gradient(
+    to right,
+    white 0%,
+    white 50%,
+    blue 50%,
+    blue 100%
+    );
+  display: flex;
+  margin : 90px;
+  border-radius : 15px;
+  border :0.5px solid white;
+  font-size : 15px;
+
+  }
+ 
+  
+h1 {
+  color : black;
+  font-family : "arial";
+  font-weight : bold;
+  }
+  .mail {
+  border : blueviolet solid 1px;
+  padding : 1em;
+  width : 255px;
+  height : 45px;
+  border-radius : 5px;
+  }
+  .password {
+  border : rgb(219, 206, 206) solid 1px;
+  padding : 1em;
+  width : 255px;
+  height : 45px;
+  border-radius : 5px;
+  }
+  .account {
+  border : rgb(219, 206, 206) solid 1px;
+  background-color : blue;
+  padding : 1em;
+  width : 255px;
+  height : 45px;
+  border-radius : 5px;
+  text-align : center;
+  }
+  .dream {
+  display : flex;
+  flex-direction : row;
+  }
+  .dream:before, .dream:after {
+  content : "";
+  flex : 1 1;
+  border-bottom : 1px solid;
+  margin : auto;
+  }
+  .dream:before {
+  margin-right : 10px;
+  }
+  .dream:after {
+  margin-left : 10px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+
+  
+  }
+.cont {
+  width: 80px;
+  height: 50px;
+  border: 0.5px solid rgb(233, 228, 228);
+  margin: 8px;
+  text-align: center;
+  padding: 0.4em;
+}
+ul{
+  list-style-type: none;
+}
+.vertical{
+  border-left: 1px solid rgba(121, 194, 216, 0.856);
+  height: 435px;
+  position: absolute;
+  left: 80%;
+  margin-left: 400px;
+  top: 0;
+  margin-top: 170px;
+  
+}
+
+.logo{
+  position:absolute;
+  left: 213%;
+  top: 0;
+  margin-top: 120px;
+}
+.statement{
+  color: white;
+  position: absolute;
+  left: 216%;
+  top:0;
+  margin-top: 180px;
+  font-size: 80px;
+  font-family:monospace;
+  font-weight: bold;
+}
+.posium{
+  position: relative;
+  left: 250%;
+  top: 0;
+  margin-top: -205px;
+  font-size: small;
+
+}
+hr.linear{
+  border: 1px solid rgba(121, 194, 216, 0.856);
+  display: block;
+  width: 15%;
+  position: absolute;
+  left: 219%;
+  top: 0;
+  margin-top: 433px;
+}
+  
